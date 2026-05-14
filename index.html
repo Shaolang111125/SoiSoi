@@ -1,42 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
 
-  <title>My New Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
+<title>SoiSoi Website</title>
 
-    body{
-      background:black;
-      color:white;
-      text-align:center;
-      margin-top:100px;
-      font-family:Arial;
-    }
+<style>
 
-    button{
-      padding:10px 20px;
-      font-size:20px;
-    }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-  </style>
+body{
+    background:#0f0f0f;
+    color:white;
+    font-family:Arial;
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+
+    text-align:center;
+    background:#1b1b1b;
+
+    padding:50px;
+
+    border-radius:20px;
+
+    box-shadow:0 0 30px rgba(0,255,255,0.3);
+
+}
+
+h1{
+    font-size:50px;
+    margin-bottom:20px;
+    color:cyan;
+}
+
+p{
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+button{
+
+    padding:15px 30px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:cyan;
+
+    color:black;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+button:hover{
+
+    background:white;
+
+    transform:scale(1.1);
+}
+
+</style>
 
 </head>
 
 <body>
 
-<h1>Welcome To My Website</h1>
+<div class="container">
 
-<p>This website is online now.</p>
+<h1>Welcome</h1>
+
+<p>My Professional Website</p>
 
 <button onclick="hello()">
 Click Me
 </button>
 
+</div>
+
 <script>
 
 function hello(){
-  alert("Hello Friend! ဘာကြည့်နေတာလဲ စော်ပြစ် ကောင်");
+
+    alert("Welcome To SoiSoi Website!စော်မရှိကောင်");
+
 }
 
 </script>
