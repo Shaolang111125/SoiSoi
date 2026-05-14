@@ -17,8 +17,7 @@
 }
 
 body{
-    background:#0f0f0f;
-    color:white;
+  background:linear-gradient(to right,#0a0a0a,#111827);  color:white;
     font-family:Arial;
     height:100vh;
 
@@ -29,12 +28,18 @@ body{
 
 .container{
 
-    text-align:center;
-    background:#1b1b1b;
+ 
+   text-align:center;
+   background:rgba(255,255,255,0.05); padding:60px;
+max-width:800px;
+    border-radius:20px; 
+backdrop-filter:blur(10px);
 
-    padding:50px;
+border:1px solid rgba(255,255,255,0.1);
 
-    border-radius:20px;
+max-width:900px;
+
+line-height:1.8;
 
     box-shadow:0 0 30px rgba(0,255,255,0.3);
 
@@ -77,6 +82,94 @@ button:hover{
     transform:scale(1.1);
 }
 
+.telegram{
+
+    background:#229ED9;
+    color:white;
+}
+
+.telegram-float{
+
+    position:fixed;
+
+    bottom:20px;
+
+    right:20px;
+
+    background:#229ED9;
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    box-shadow:0 0 20px rgba(0,0,0,0.5);
+
+    transition:0.3s;
+}
+
+.telegram-float:hover{
+
+    transform:scale(1.1);
+
+    background:#3bbef5;
+}
+
+.telegram-bar{
+
+    position:fixed;
+
+    bottom:20px;
+
+    right:20px;
+
+    background:white;
+
+    padding:8px 12px;
+
+    border-radius:10px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    text-decoration:none;
+
+    box-shadow:0 0 15px rgba(0,0,0,0.5);
+
+}
+
+.telegram-bar span{
+
+    color:black;
+
+    font-weight:bold;
+}
+
+.telegram-bar button{
+
+    padding:8px 15px;
+
+    border:none;
+
+    border-radius:6px;
+
+    background:#229ED9;
+
+    color:white;
+
+    cursor:pointer;
+}
+
 </style>
 
 </head>
@@ -84,35 +177,129 @@ button:hover{
 <body>
 
 <div class="container">
+<h1>
+Build Your Financial Future With Confidence
+</h1>
+
+<br>
+
+<p>
+Welcome to my professional financial consulting platform.
+</p>
+
+<br>
+
+<p>
+I help individuals, entrepreneurs, investors, and growing businesses make smarter financial decisions with confidence and clarity.
+</p>
+
+<br>
+
+<p>
+My goal is simple:
+To help you protect your money, grow your wealth, and build long-term financial stability.
+</p>
+
+<br>
+
+<p>
+Whether you are planning your investments, managing risk, building savings, or creating new income opportunities, I provide guidance designed to support your financial journey step by step.
+</p>
+
 <br><br>
 
-<a href="https://t.me/Isabella6677_1" target="_blank">
+<h2>My Financial Services</h2>
 
-<button class="telegram">
-Join Telegram
-</button>
+<br>
 
-</a>
+<p>✔ Financial Planning</p>
 
-<h1>Welcome</h1>
+<p>✔ Investment Guidance</p>
 
-<p>My Professional Website</p>
+<p>✔ Wealth Management</p>
 
-<button onclick="hello()">
-Click Me
-</button>
+<p>✔ Risk Management</p>
 
+<p>✔ Business Financial Strategy</p>
+
+<p>✔ Long-Term Savings Plans</p>
+
+<p>✔ Passive Income Consultation</p>
+
+<p>✔ Personal Finance Coaching</p>
+
+<br><br>
+
+<h2>Professional Statement</h2>
+
+<br>
+
+<p>
+I believe financial success is built through knowledge, discipline, and strategic planning.
+</p>
+
+<br>
+
+<p>
+Every client has unique financial goals, and I focus on creating personalized guidance based on individual needs and future objectives.
+</p>
+
+<br>
+
+<p>
+My mission is not only to provide advice, but also to help people develop financial confidence and long-term stability in an ever-changing world.
+</p>
+
+<br><br>
+
+<h2>Contact</h2>
+
+<br>
+
+<p>
+Ready to improve your financial future?
+</p>
+
+<br>
+
+<p>
+Connect with me directly through Telegram for consultation, questions, or professional financial guidance.
+</p>
+
+<br><br>
+
+<h3>
+Professional Financial Consultant
+</h3>
+
+<p>
+Focused on modern financial strategies, investment education, and long-term wealth development.
+</p>
 </div>
 
 <script>
 
 function hello(){
 
-    alert("Welcome To SoiSoi Website!စော်မရှိကောင်");
+alert("Welcome To My Financial Consulting Platform");
 
 }
 
 </script>
+<a href="https://t.me/Isabella6677_1"
+class="telegram-bar"
+target="_blank">
 
+<img
+src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png"
+width="25">
+
+<span>Telegram ➤</span>
+
+<button>
+Join Now
+</button>
+
+</a>
 </body>
 </html>
