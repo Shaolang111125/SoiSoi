@@ -17,12 +17,15 @@
 }
 
 body{
-  background:linear-gradient(to right,#0a0a0a,#111827);  color:white;
+
+  background:linear-gradient(to right,#0a0a0a,#111827);  
+
+    color:white;
+
     font-family:Arial;
-min-height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+
+   min-height:100vh;
+    
 }
 
 
@@ -43,6 +46,8 @@ min-height:100vh;
     max-width:1400px;
 
     margin:auto;
+    
+    margin-top:120px;
 
 }
 .left{
@@ -82,7 +87,8 @@ min-height:100vh;
 }
 .left h1,
 .left p,
-.left button{
+.left button,
+.mini-title{
 
     position:relative;
 
@@ -425,6 +431,77 @@ button{
     font-size:16px;
 }
 
+.services-section{
+
+    width:100%;
+
+    padding:100px 60px;
+
+    text-align:center;
+
+    color:white;
+}
+
+.services-section h2{
+
+    font-size:45px;
+
+    margin-bottom:50px;
+
+    color:#f4c95d;
+}
+
+.services-grid{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+}
+
+.service-card{
+
+    width:280px;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    background:rgba(255,255,255,0.08);
+
+    backdrop-filter:blur(15px);
+
+    border:1px solid rgba(255,255,255,0.1);
+
+    transition:0.3s;
+}
+
+.service-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 0 30px rgba(244,201,93,0.3);
+}
+
+.service-card h3{
+
+    color:#f4c95d;
+
+    margin-bottom:20px;
+
+    font-size:24px;
+}
+
+.service-card p{
+
+    color:#d1d5db;
+
+    line-height:1.7;
+}
+
 </style>
 
 </head>
@@ -529,6 +606,55 @@ Trusted by professionals and entrepreneurs worldwide.
 </div>
 
 </div>
+<section class="services-section">
+
+<h2>My Financial Services</h2>
+
+<div class="services-grid">
+
+<div class="service-card">
+
+<h3>Investment Planning</h3>
+
+<p>
+Professional strategies designed for long-term financial growth and stability.
+</p>
+
+</div>
+
+<div class="service-card">
+
+<h3>Wealth Management</h3>
+
+<p>
+Smart wealth management solutions for individuals and businesses.
+</p>
+
+</div>
+
+<div class="service-card">
+
+<h3>Risk Management</h3>
+
+<p>
+Protect your assets with modern financial risk strategies.
+</p>
+
+</div>
+
+<div class="service-card">
+
+<h3>Passive Income</h3>
+
+<p>
+Build sustainable income opportunities and financial freedom.
+</p>
+
+</div>
+
+</div>
+
+</section>
 
 <script>
 
